@@ -6,7 +6,7 @@ import{
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
-import ArticlesList from './pages/ArticlesList';
+import ArticlesList from './pages/ArticlesListPage';
 import NavBar from './NavBar';
 
 import './App.css';
