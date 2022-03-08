@@ -6,7 +6,7 @@ import{
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
-import ArticlesList from './pages/ArticlesListPage';
+import ArticlesListPage from './pages/ArticlesListPage';
 import NavBar from './NavBar';
 
 import './App.css';
@@ -24,7 +24,7 @@ class App extends Component {
               <Route exact path="/" element={<HomePage/>}  />
               <Route exact path="/about" element={<AboutPage/>}  />
               <Route exact path="/article/:name" element={<ArticlePage/>}  />
-              <Route exact path="/articles-list" element={<ArticlesList/>}  />
+              <Route exact path="/articles-list" element={<ArticlesListPage/>}  />
             </Routes>
           </div>
         </div>
