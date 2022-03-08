@@ -23,7 +23,7 @@ class App extends Component {
             <Routes>
               <Route exact path="/" element={<HomePage/>}  />
               <Route exact path="/about" element={<AboutPage/>}  />
-              <Route exact path="/article" element={<ArticlePage/>}  />
+              <Route exact path="/article/:name" element={<ArticlePage/>}  />
               <Route exact path="/articles-list" element={<ArticlesList/>}  />
             </Routes>
           </div>

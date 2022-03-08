@@ -1,15 +1,15 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
-const ArticlePage = () =>(
+export const ArticlePage = () =>{
+    const{name}=useParams();
+    return (
     <>
-    <h1>This is an article</h1>
+    <h1>This is an {name} article</h1>
     <p>
-    I am an innovative Entry-Level Programmer and Internet Entrepreneur striving to make the
-    world a more unified and connected place. A creative thinker, adept in software
-    development and working with various data structures. I am available to start work
-    immediately and my notice period is 1 day.
+    article page paragraph
     </p>
-    </>
-)
+    </>)
+};
 
 export default ArticlePage;
